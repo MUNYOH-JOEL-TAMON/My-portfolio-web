@@ -85,7 +85,7 @@ function Home({ scrolled = false }: { scrolled?: boolean }) {
   return (
     <main className="site-shell">
       <header className={`site-nav ${scrolled ? "is-scrolled" : ""}`}>
-        <a href="#home" className="wordmark" aria-label="Munyoh Joel Tamon home">
+        <a href="#home" className="wordmark" aria-label="MUNYOH JOEL TAMON home">
           <span className="mark-wrap"><img src={mark} alt="" /></span>
           <span>JOEL<span className="wordmark-dot">.</span></span>
         </a>
@@ -114,7 +114,7 @@ function Home({ scrolled = false }: { scrolled?: boolean }) {
         <div className="hero-portrait-wrap">
           <div className="orbit orbit-one" /><div className="orbit orbit-two" />
           <div className="portrait-blob" />
-          <img className="hero-portrait" src={portrait} alt="Portrait of Munyoh Joel Tamon" />
+          <img className="hero-portrait" src={portrait} alt="Portrait of MUNYOH JOEL TAMON" />
           <div className="portrait-stamp"><Radar size={17} /><span>BUILDING<br />USEFUL THINGS</span></div>
           <span className="hero-code">01 / 05</span>
         </div>
@@ -136,7 +136,7 @@ function Home({ scrolled = false }: { scrolled?: boolean }) {
       <section id="about" className="about section-frame content-section">
         <div className="section-intro"><SectionLabel number="01" >A LITTLE CONTEXT</SectionLabel><h2>Curious by default.<br /><span>Useful by design.</span></h2></div>
         <div className="about-content">
-          <div className="about-card"><div className="about-card-top"><span>PROFILE / 2026</span><ArrowUpRight size={17} /></div><div className="about-monogram">J<span>/</span></div><div className="about-card-bottom"><span>MU NYOH<br />JOEL TAMON</span><span>AI / FULL-STACK<br />ENGINEERING</span></div></div>
+          <div className="about-card"><div className="about-card-top"><span>PROFILE / 2026</span><ArrowUpRight size={17} /></div><div className="about-monogram">M<span>/</span></div><div className="about-card-bottom"><span>MUNYOH<br />JOEL TAMON</span><span>AI / FULL-STACK<br />ENGINEERING</span></div></div>
           <div className="about-copy"><p className="large-copy">I’m a passionate AI Engineer, Software Engineer, Computer Engineering student, and Full Stack Developer who likes working where complex technology meets human clarity.</p><p>I’m interested in the full arc of a product: understanding a messy problem, shaping a clean interface, building the system behind it, and learning from what happens next. My toolkit spans React, Node.js, Express, PostgreSQL, Python, machine learning, cloud infrastructure, and generative AI.</p><div className="about-links"><a href="#experience">See my path <ArrowUpRight size={15} /></a><a href="#skills">Explore capabilities <ArrowUpRight size={15} /></a></div></div>
         </div>
       </section>
@@ -153,7 +153,7 @@ function Home({ scrolled = false }: { scrolled?: boolean }) {
 
       <section className="services section-frame content-section"><div className="section-intro split-heading"><div><SectionLabel number="05">WHAT I CAN DO</SectionLabel><h2>Bring the hard<br /><span>part to the table.</span></h2></div><p>Good collaboration starts before the first line of code. Bring a rough idea, a stuck system, or a question worth exploring.</p></div><div className="service-grid">{services.map(({ number, title, copy, icon: Icon }) => <article className="service-card" key={title}><div className="service-top"><span>{number}</span><Icon size={20} /></div><h3>{title}</h3><p>{copy}</p><a href="#contact">Explore service <ChevronRight size={15} /></a></article>)}</div></section>
 
-      <section id="contact" className="contact section-frame"><div className="contact-orb" /><SectionLabel number="06">A GOOD PLACE TO START</SectionLabel><h2>Have a hard problem?<br /><span>Let’s map the first move.</span></h2><p>Tell me what you’re working on, what feels unclear, or where the system is stuck. I’ll get back to you with a useful next step.</p><a className="contact-button" href="mailto:joelmunyoy123@gmail.com">joelmunyoy123@gmail.com <Send size={16} /></a><div className="contact-bottom"><span>MU NYOH JOEL TAMON / 2026</span><span>BUILT WITH CARE <i className="green-dot" /></span></div></section>
+      <section id="contact" className="contact section-frame"><div className="contact-orb" /><SectionLabel number="06">A GOOD PLACE TO START</SectionLabel><h2>Have a hard problem?<br /><span>Let’s map the first move.</span></h2><p>Tell me what you’re working on, what feels unclear, or where the system is stuck. I’ll get back to you with a useful next step.</p><a className="contact-button" href="mailto:joelmunyoy123@gmail.com">joelmunyoy123@gmail.com <Send size={16} /></a><div className="contact-bottom"><span>MUNYOH JOEL TAMON / 2026</span><span>BUILT WITH CARE <i className="green-dot" /></span></div></section>
     </main>
   );
 }
