@@ -69,7 +69,7 @@ const skills = [
   { name: "Node / Express", category: "Backend", signal: "Service layer", evidence: "Used for reliable APIs", icon: Network },
   { name: "Machine Learning", category: "AI", signal: "Intelligence layer", evidence: "Used for useful predictions", icon: BrainCircuit },
   { name: "PostgreSQL", category: "Data", signal: "System memory", evidence: "Used for structured products", icon: Database },
-  { name: "AWS / Docker", category: "Cloud", signal: "Runtime layer", evidence: "Used to move ideas live", icon: Cloud },
+  { name: "AWS", category: "Cloud", signal: "Runtime layer", evidence: "Used to move ideas live", icon: Cloud },
 ];
 
 const services = [
@@ -147,7 +147,7 @@ function Home({ scrolled = false }: { scrolled?: boolean }) {
       <section id="skills" className="skills section-frame content-section">
         <div className="section-intro split-heading"><div><SectionLabel number="02">THE TOOLKIT</SectionLabel><h2>Tools for turning<br /><span>thought into motion.</span></h2></div><p>Not a list for its own sake. These are the tools I reach for when the work needs to be fast, clear, and built to last.</p></div>
         <div className="skill-grid">{skills.map(({ name, category, signal, evidence, icon: Icon }) => <article className="skill-card" key={name}><div className="skill-icon"><Icon size={20} /></div><span className="skill-category">{category}</span><h3>{name}</h3><div className="skill-evidence"><span>{signal}</span><span>↗</span></div><p className="skill-proof">{evidence}</p></article>)}</div>
-        <div className="tech-marquee"><span>REACT</span><i>•</i><span>PYTHON</span><i>•</i><span>POSTGRESQL</span><i>•</i><span>OPENAI</span><i>•</i><span>AWS</span><i>•</i><span>DOCKER</span><i>•</i><span>REACT</span></div>
+        <div className="tech-marquee"><span>REACT</span><i>•</i><span>PYTHON</span><i>•</i><span>POSTGRESQL</span><i>•</i><span>OPENAI</span><i>•</i><span>AWS</span><i>•</i><span>NODE.JS</span><i>•</i><span>REACT</span></div>
       </section>
 
       <section id="projects" className="projects section-frame content-section"><div className="section-intro split-heading"><div><SectionLabel number="03">SELECTED WORK</SectionLabel><h2>Small selection.<br /><span>Real intent.</span></h2></div><a className="text-link" href="#contact">Start a project <ArrowUpRight size={16} /></a></div><div className="project-list">{projects.map((project) => <article className={`project-card ${project.accent}`} key={project.title}><div className="project-visual">{project.image ? <img src={project.image} alt={`${project.title} project visual`} /> : <div className="project-placeholder"><span>INTERN</span><strong>SYNC</strong><div className="placeholder-lines"><i /><i /><i /></div></div>}<span className="project-number">{project.index}</span></div><div className="project-info"><div><span className="project-type">{project.type}</span><span className="project-proof">{project.artifact}</span><h3>{project.title}</h3><p>{project.description}</p><div className="tag-row">{project.tags.map((tag) => <span key={tag}>{tag}</span>)}</div></div><a className="circle-arrow" href={project.link} target={project.link.startsWith('http') ? '_blank' : '_self'} rel={project.link.startsWith('http') ? 'noopener noreferrer' : undefined} aria-label={`View ${project.title}`}><ArrowUpRight size={19} /></a></div></article>)}</div></section>
