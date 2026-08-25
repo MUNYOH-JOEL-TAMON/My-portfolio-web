@@ -1014,6 +1014,45 @@ h2 {
   backdrop-filter: blur(10px);
   border-top: 1px solid var(--glass-border);
   border-bottom: 1px solid var(--glass-border); 
+  position: relative;
+}
+
+.tech-marquee::before,
+.tech-marquee::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 100px;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.tech-marquee::before {
+  left: 0;
+  background: linear-gradient(90deg, var(--glass-bg) 0%, transparent 100%);
+}
+
+.tech-marquee::after {
+  right: 0;
+  background: linear-gradient(90deg, transparent 0%, var(--glass-bg) 100%);
+}
+
+.tech-marquee-content {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  animation: marqueeScroll 20s linear infinite;
+  padding-right: 24px;
+}
+
+@keyframes marqueeScroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
 .tech-marquee i { 
