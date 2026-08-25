@@ -37,6 +37,7 @@ const projects = [
     tags: ["React", "Python", "OpenAI"],
     artifact: "Artifact / validation workspace",
     accent: "orange",
+    link: "https://postic-ai.netlify.app/",
   },
   {
     index: "02",
@@ -47,6 +48,7 @@ const projects = [
     tags: ["Next.js", "FastAPI", "Postgres"],
     artifact: "Artifact / searchable insight layer",
     accent: "sage",
+    link: "#contact",
   },
   {
     index: "03",
@@ -57,6 +59,7 @@ const projects = [
     tags: ["Node.js", "Express", "AWS"],
     artifact: "Artifact / connection workflow",
     accent: "ink",
+    link: "#contact",
   },
 ];
 
@@ -147,7 +150,7 @@ function Home({ scrolled = false }: { scrolled?: boolean }) {
         <div className="tech-marquee"><span>REACT</span><i>•</i><span>PYTHON</span><i>•</i><span>POSTGRESQL</span><i>•</i><span>OPENAI</span><i>•</i><span>AWS</span><i>•</i><span>DOCKER</span><i>•</i><span>REACT</span></div>
       </section>
 
-      <section id="projects" className="projects section-frame content-section"><div className="section-intro split-heading"><div><SectionLabel number="03">SELECTED WORK</SectionLabel><h2>Small selection.<br /><span>Real intent.</span></h2></div><a className="text-link" href="#contact">Start a project <ArrowUpRight size={16} /></a></div><div className="project-list">{projects.map((project) => <article className={`project-card ${project.accent}`} key={project.title}><div className="project-visual">{project.image ? <img src={project.image} alt={`${project.title} project visual`} /> : <div className="project-placeholder"><span>INTERN</span><strong>SYNC</strong><div className="placeholder-lines"><i /><i /><i /></div></div>}<span className="project-number">{project.index}</span></div><div className="project-info"><div><span className="project-type">{project.type}</span><span className="project-proof">{project.artifact}</span><h3>{project.title}</h3><p>{project.description}</p><div className="tag-row">{project.tags.map((tag) => <span key={tag}>{tag}</span>)}</div></div><a className="circle-arrow" href="#contact" aria-label={`View ${project.title}`}><ArrowUpRight size={19} /></a></div></article>)}</div></section>
+      <section id="projects" className="projects section-frame content-section"><div className="section-intro split-heading"><div><SectionLabel number="03">SELECTED WORK</SectionLabel><h2>Small selection.<br /><span>Real intent.</span></h2></div><a className="text-link" href="#contact">Start a project <ArrowUpRight size={16} /></a></div><div className="project-list">{projects.map((project) => <article className={`project-card ${project.accent}`} key={project.title}><div className="project-visual">{project.image ? <img src={project.image} alt={`${project.title} project visual`} /> : <div className="project-placeholder"><span>INTERN</span><strong>SYNC</strong><div className="placeholder-lines"><i /><i /><i /></div></div>}<span className="project-number">{project.index}</span></div><div className="project-info"><div><span className="project-type">{project.type}</span><span className="project-proof">{project.artifact}</span><h3>{project.title}</h3><p>{project.description}</p><div className="tag-row">{project.tags.map((tag) => <span key={tag}>{tag}</span>)}</div></div><a className="circle-arrow" href={project.link} target={project.link.startsWith('http') ? '_blank' : '_self'} rel={project.link.startsWith('http') ? 'noopener noreferrer' : undefined} aria-label={`View ${project.title}`}><ArrowUpRight size={19} /></a></div></article>)}</div></section>
 
       <section id="experience" className="experience section-frame content-section"><div className="section-intro"><SectionLabel number="04">THE PATH SO FAR</SectionLabel><h2>Learning in public,<br /><span>building with intent.</span></h2></div><div className="timeline"><div className="timeline-line" />{[{ year: "2025 — NOW", title: "AI Engineering & Product Building", copy: "Exploring intelligent products, full-stack systems, and the space between a prototype and something people can rely on." }, { year: "2023 — 2025", title: "Computer Engineering", copy: "Building foundations across software engineering, data structures, networks, systems, and the discipline of learning hard things." }, { year: "ALONG THE WAY", title: "Open Source, Experiments, Community", copy: "Shipping small ideas, asking better questions, and collecting the kind of experience that only comes from making the work real." }].map((item, i) => <div className="timeline-item" key={item.year}><div className="timeline-bullet">0{i + 1}</div><div className="timeline-year">{item.year}</div><div><h3>{item.title}</h3><p>{item.copy}</p></div></div>)}</div></section>
 
