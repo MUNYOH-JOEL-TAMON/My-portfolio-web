@@ -20,7 +20,7 @@ import {
   X,
 } from "lucide-react";
 
-const portrait = "/manus-storage/joel-portrait_ea303345.png";
+const portrait = "/images/portfolio-img.png";
 const luminary = "/manus-storage/luminary-ai_9789cf93.png";
 const meeting = "/manus-storage/meeting-intelligence_a2d620f3.png";
 const mark = "/manus-storage/joel-mark_46bee1bf.png";
