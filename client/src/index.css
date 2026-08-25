@@ -1013,7 +1013,7 @@ h2 {
   background: var(--glass-bg);
   backdrop-filter: blur(10px);
   border-top: 1px solid var(--glass-border);
-  border-bottom: 1px solid var(--glass-border);
+  border-bottom: 1px solid var(--glass-border); 
 }
 
 .tech-marquee i { 
