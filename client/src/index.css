@@ -1352,7 +1352,7 @@ h2 {
 .contact { 
   min-height: 600px; 
   padding-top: 100px; 
-  padding-bottom: 50px; 
+  padding-bottom: 80px; 
   border-top: 1px solid var(--glass-border); 
   overflow: hidden;
   position: relative;
@@ -1447,15 +1447,13 @@ h2 {
 }
 
 .contact-bottom { 
-  position: absolute; 
-  left: 60px; 
-  right: 60px; 
-  bottom: 40px; 
+  position: relative;
+  margin-top: 80px;
+  padding-top: 24px;
   color: rgba(243,240,232,.45); 
   display: flex; 
   justify-content: space-between; 
   font-size: 9px;
-  padding: 20px 0;
   border-top: 1px solid var(--glass-border);
 }
 @media (max-width: 900px) { 
@@ -1555,7 +1553,7 @@ h2 {
   .contact { 
     min-height: 520px; 
     padding-top: 80px;
-    padding-bottom: 140px;
+    padding-bottom: 60px;
   }
   .contact-orb { 
     width: 400px; 
@@ -1565,12 +1563,10 @@ h2 {
   }
   .contact-bottom { 
     position: relative;
-    left: 0;
-    right: 0;
-    bottom: 0;
     flex-direction: column;
     gap: 12px;
     margin-top: 60px;
+    padding-top: 20px;
   }
 }
 
@@ -1731,7 +1727,7 @@ h2 {
   .contact { 
     min-height: 480px; 
     padding-top: 60px;
-    padding-bottom: 120px;
+    padding-bottom: 50px;
   }
   
   .contact h2 { 
@@ -1762,6 +1758,11 @@ h2 {
     height: 300px; 
     right: -180px; 
     top: 200px; 
+  }
+  
+  .contact-bottom {
+    margin-top: 50px;
+    padding-top: 16px;
   }
   
   .tech-marquee {
