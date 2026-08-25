@@ -128,7 +128,7 @@ function Home({ scrolled = false }: { scrolled?: boolean }) {
           <ul className="capability-list">
             {["AI Engineering", "Full Stack Development", "Machine Learning", "Cloud Computing", "API Development", "Data Science"].map((item) => <li key={item}><Check size={14} />{item}</li>)}
           </ul>
-          <div className="social-row"><a href="https://github.com" aria-label="GitHub"><Github size={17} /></a><a href="https://linkedin.com" aria-label="LinkedIn"><Linkedin size={17} /></a><a href="https://mail.google.com/mail/?view=cm&fs=1&to=joelmunyoy123@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email"><Mail size={17} /></a></div>
+          <div className="social-row"><a href="https://github.com/MUNYOH-JOEL-TAMON" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><Github size={17} /></a><a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><Linkedin size={17} /></a><a href="https://mail.google.com/mail/?view=cm&fs=1&to=joelmunyoy123@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email"><Mail size={17} /></a></div>
         </aside>
       </section>
 
