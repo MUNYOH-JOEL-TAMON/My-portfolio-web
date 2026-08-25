@@ -86,8 +86,8 @@ function Home({ scrolled = false }: { scrolled?: boolean }) {
     <main className="site-shell">
       <header className={`site-nav ${scrolled ? "is-scrolled" : ""}`}>
         <a href="#home" className="wordmark" aria-label="MUNYOH JOEL TAMON home">
-          <span className="mark-wrap"><img src={mark} alt="" /></span>
-          <span>JOEL<span className="wordmark-dot">.</span></span>
+          <span className="mark-wrap"><img src={portrait} alt="MUNYOH JOEL TAMON" /></span>
+          <span>MUNYOH<span className="wordmark-dot">.</span></span>
         </a>
         <nav className="desktop-nav" aria-label="Primary navigation">
           {navItems.map((item) => <a key={item} href={`#${item}`}>{item}</a>)}
