@@ -128,7 +128,7 @@ function Home({ scrolled = false }: { scrolled?: boolean }) {
           <ul className="capability-list">
             {["AI Engineering", "Full Stack Development", "Machine Learning", "Cloud Computing", "API Development", "Data Science"].map((item) => <li key={item}><Check size={14} />{item}</li>)}
           </ul>
-          <div className="social-row"><a href="https://github.com" aria-label="GitHub"><Github size={17} /></a><a href="https://linkedin.com" aria-label="LinkedIn"><Linkedin size={17} /></a><a href="mailto:joelmunyoy123@gmail.com" aria-label="Email"><Mail size={17} /></a></div>
+          <div className="social-row"><a href="https://github.com" aria-label="GitHub"><Github size={17} /></a><a href="https://linkedin.com" aria-label="LinkedIn"><Linkedin size={17} /></a><a href="https://mail.google.com/mail/?view=cm&fs=1&to=joelmunyoy123@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email"><Mail size={17} /></a></div>
         </aside>
       </section>
 
@@ -156,7 +156,7 @@ function Home({ scrolled = false }: { scrolled?: boolean }) {
 
       <section className="services section-frame content-section"><div className="section-intro split-heading"><div><SectionLabel number="05">WHAT I CAN DO</SectionLabel><h2>Bring the hard<br /><span>part to the table.</span></h2></div><p>Good collaboration starts before the first line of code. Bring a rough idea, a stuck system, or a question worth exploring.</p></div><div className="service-grid">{services.map(({ number, title, copy, icon: Icon }) => <article className="service-card" key={title}><div className="service-top"><span>{number}</span><Icon size={20} /></div><h3>{title}</h3><p>{copy}</p><a href="#contact">Explore service <ChevronRight size={15} /></a></article>)}</div></section>
 
-      <section id="contact" className="contact section-frame"><div className="contact-orb" /><SectionLabel number="06">A GOOD PLACE TO START</SectionLabel><h2>Have a hard problem?<br /><span>Let’s map the first move.</span></h2><p>Tell me what you’re working on, what feels unclear, or where the system is stuck. I’ll get back to you with a useful next step.</p><a className="contact-button" href="mailto:joelmunyoy123@gmail.com">joelmunyoy123@gmail.com <Send size={16} /></a><div className="contact-bottom"><span>MUNYOH JOEL TAMON / 2026</span><span>BUILT WITH CARE <i className="green-dot" /></span></div></section>
+      <section id="contact" className="contact section-frame"><div className="contact-orb" /><SectionLabel number="06">A GOOD PLACE TO START</SectionLabel><h2>Have a hard problem?<br /><span>Let’s map the first move.</span></h2><p>Tell me what you’re working on, what feels unclear, or where the system is stuck. I’ll get back to you with a useful next step.</p><a className="contact-button" href="https://mail.google.com/mail/?view=cm&fs=1&to=joelmunyoy123@gmail.com" target="_blank" rel="noopener noreferrer">joelmunyoy123@gmail.com <Send size={16} /></a><div className="contact-bottom"><span>MUNYOH JOEL TAMON / 2026</span><span>BUILT WITH CARE <i className="green-dot" /></span></div></section>
     </main>
   );
 }
