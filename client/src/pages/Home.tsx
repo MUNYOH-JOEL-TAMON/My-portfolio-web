@@ -133,7 +133,7 @@ function Home({ scrolled = false }: { scrolled?: boolean }) {
       </section>
 
       <section className="stats-strip section-frame" aria-label="Portfolio statistics">
-        {[{ value: "10+", label: "Projects built", note: "from idea to interface" }, { value: "3+", label: "Years learning", note: "always in motion" }, { value: "15+", label: "Technologies", note: "one useful stack" }, { value: "100%", label: "Curiosity", note: "the unfair advantage" }].map((stat, i) => <div className="stat-card" key={stat.label}><span className="stat-index">0{i + 1}</span><strong>{stat.value}</strong><span>{stat.label}</span><small>{stat.note}</small></div>)}
+        {[{ value: "10+", label: "Projects built", note: "from idea to interface" }, { value: "2+", label: "Years learning", note: "always in motion" }, { value: "15+", label: "Technologies", note: "one useful stack" }, { value: "100%", label: "Curiosity", note: "the unfair advantage" }].map((stat, i) => <div className="stat-card" key={stat.label}><span className="stat-index">0{i + 1}</span><strong>{stat.value}</strong><span>{stat.label}</span><small>{stat.note}</small></div>)}
       </section>
 
       <section id="about" className="about section-frame content-section">
