@@ -30,7 +30,7 @@ const navItems = ["about", "skills", "projects", "experience", "contact"];
 const projects = [
   {
     index: "01",
-    title: "Luminary AI",
+    title: "Tamonix AI",
     type: "AI PRODUCT / 2025",
     description: "A signal-rich workspace that helps teams turn scattered ideas into validated product direction.",
     image: luminary,
