@@ -31,8 +31,8 @@ const projects = [
   {
     index: "01",
     title: "Tamonix AI",
-    type: "AI PRODUCT / 2025",
-    description: "A signal-rich workspace that helps teams turn scattered ideas into validated product direction.",
+    type: "AI PRODUCT / 2026",
+    description: "A signal-rich workspace that helps creators turn scattered ideas into validated product direction.",
     image: luminary,
     tags: ["React", "Python", "OpenAI"],
     artifact: "Artifact / validation workspace",
