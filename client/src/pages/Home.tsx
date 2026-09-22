@@ -48,7 +48,7 @@ const projects = [
     tags: ["Next.js", "AI", "Automation"],
     artifact: "Artifact / automation platform",
     accent: "sage",
-    link: "#contact",
+    link: "https://postic-ai.netlify.app/",
   },
   {
     index: "03",
