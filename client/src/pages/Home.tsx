@@ -21,7 +21,7 @@ import {
 } from "lucide-react";
 
 const portrait = "/images/portfolio-img.png";
-const tamonix = "/images/lumi.png";
+const meeting = "/manus-storage/meeting-intelligence_a2d620f3.png";
 const njiEnterprise = "/images/nji-enterprise.png";
 const tamonixAI = "/images/tamonix.png";
 
@@ -30,14 +30,14 @@ const navItems = ["about", "skills", "projects", "experience", "contact"];
 const projects = [
   {
     index: "01",
-    title: "Tamonix",
-    type: "AI PRODUCT / 2025",
-    description: "A signal-rich workspace that helps teams turn scattered ideas into validated product direction.",
-    image: tamonix,
-    tags: ["React", "Python", "OpenAI"],
-    artifact: "Artifact / validation workspace",
+    title: "Meeting Intelligence",
+    type: "MACHINE LEARNING / 2024",
+    description: "An intelligent meeting layer that transforms conversations into searchable, actionable knowledge.",
+    image: meeting,
+    tags: ["Next.js", "FastAPI", "Postgres"],
+    artifact: "Artifact / searchable insight layer",
     accent: "orange",
-    link: "https://postic-ai.netlify.app/",
+    link: "#contact",
   },
   {
     index: "02",
