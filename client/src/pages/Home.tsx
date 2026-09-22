@@ -21,19 +21,19 @@ import {
 } from "lucide-react";
 
 const portrait = "/images/portfolio-img.png";
-const luminary = "/images/lumi.png";
-const meeting = "/manus-storage/meeting-intelligence_a2d620f3.png";
-const mark = "/manus-storage/joel-mark_46bee1bf.png";
+const tamonix = "/images/lumi.png";
+const njiEnterprise = "/images/nji-enterprise.png";
+const tamonixAI = "/images/tamonix.png";
 
 const navItems = ["about", "skills", "projects", "experience", "contact"];
 
 const projects = [
   {
     index: "01",
-    title: "Tamonix AI",
-    type: "AI PRODUCT / 2026",
-    description: "A signal rich workspace that helps creators turn scattered ideas into validated product direction.",
-    image: luminary,
+    title: "Tamonix",
+    type: "AI PRODUCT / 2025",
+    description: "A signal-rich workspace that helps teams turn scattered ideas into validated product direction.",
+    image: tamonix,
     tags: ["React", "Python", "OpenAI"],
     artifact: "Artifact / validation workspace",
     accent: "orange",
@@ -41,23 +41,23 @@ const projects = [
   },
   {
     index: "02",
-    title: "Meeting Intelligence",
-    type: "MACHINE LEARNING / 2024",
-    description: "An intelligent meeting layer that transforms conversations into searchable, actionable knowledge.",
-    image: meeting,
-    tags: ["Next.js", "FastAPI", "Postgres"],
-    artifact: "Artifact / searchable insight layer",
+    title: "Tamonix AI",
+    type: "AI AUTOMATION / 2024",
+    description: "An intelligent automation platform that helps businesses create, automate, and grow with AI-powered solutions.",
+    image: tamonixAI,
+    tags: ["Next.js", "AI", "Automation"],
+    artifact: "Artifact / automation platform",
     accent: "sage",
     link: "#contact",
   },
   {
     index: "03",
-    title: "InternSync",
-    type: "FULL-STACK PLATFORM / 2024",
-    description: "A focused platform connecting early career talent with the systems and people that accelerate learning.",
-    image: null,
-    tags: ["Node.js", "Express", "AWS"],
-    artifact: "Artifact / connection workflow",
+    title: "Nji Enterprise",
+    type: "REAL ESTATE PLATFORM / 2024",
+    description: "A comprehensive marketplace showcasing lands, houses, and cars for sale across Cameroon.",
+    image: njiEnterprise,
+    tags: ["React", "Node.js", "MongoDB"],
+    artifact: "Artifact / property marketplace",
     accent: "ink",
     link: "#contact",
   },
