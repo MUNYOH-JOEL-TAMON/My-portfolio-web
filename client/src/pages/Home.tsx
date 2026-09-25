@@ -59,7 +59,7 @@ const projects = [
     tags: ["React", "Node.js", "MongoDB"],
     artifact: "Artifact / property marketplace",
     accent: "ink",
-    link: "#contact",
+    link: "https://nji-enterprise-seven.vercel.app/",
   },
 ];
 
