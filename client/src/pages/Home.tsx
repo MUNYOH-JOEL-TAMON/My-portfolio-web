@@ -56,7 +56,7 @@ const projects = [
     type: "REAL ESTATE PLATFORM / 2024",
     description: "A comprehensive marketplace showcasing lands, houses, and cars for sale across Cameroon.",
     image: njiEnterprise,
-    tags: ["React", "Node.js", "MongoDB"],
+    tags: ["React", "Node.js", "Supabase"],
     artifact: "Artifact / property marketplace",
     accent: "ink",
     link: "https://nji-enterprise-seven.vercel.app/",
